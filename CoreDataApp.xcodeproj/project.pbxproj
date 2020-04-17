@@ -14,6 +14,8 @@
 		318008A4244A21FB00C50131 /* CoreDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 318008A2244A21FB00C50131 /* CoreDataApp.xcdatamodeld */; };
 		318008A6244A21FC00C50131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318008A5244A21FC00C50131 /* Assets.xcassets */; };
 		318008A9244A21FC00C50131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318008A7244A21FC00C50131 /* LaunchScreen.storyboard */; };
+		318008B1244A223700C50131 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318008B0244A223700C50131 /* SecondViewController.swift */; };
+		318008B3244A22EF00C50131 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 318008B2244A22EF00C50131 /* select.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		318008A5244A21FC00C50131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318008A8244A21FC00C50131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		318008AA244A21FC00C50131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318008B0244A223700C50131 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		318008B2244A22EF00C50131 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +65,13 @@
 				31800899244A21FB00C50131 /* AppDelegate.swift */,
 				3180089B244A21FB00C50131 /* SceneDelegate.swift */,
 				3180089D244A21FB00C50131 /* ViewController.swift */,
+				318008B0244A223700C50131 /* SecondViewController.swift */,
 				3180089F244A21FB00C50131 /* Main.storyboard */,
 				318008A5244A21FC00C50131 /* Assets.xcassets */,
 				318008A7244A21FC00C50131 /* LaunchScreen.storyboard */,
 				318008AA244A21FC00C50131 /* Info.plist */,
 				318008A2244A21FB00C50131 /* CoreDataApp.xcdatamodeld */,
+				318008B2244A22EF00C50131 /* select.png */,
 			);
 			path = CoreDataApp;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				318008A9244A21FC00C50131 /* LaunchScreen.storyboard in Resources */,
+				318008B3244A22EF00C50131 /* select.png in Resources */,
 				318008A6244A21FC00C50131 /* Assets.xcassets in Resources */,
 				318008A1244A21FB00C50131 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +151,7 @@
 				318008A4244A21FB00C50131 /* CoreDataApp.xcdatamodeld in Sources */,
 				3180089E244A21FB00C50131 /* ViewController.swift in Sources */,
 				3180089A244A21FB00C50131 /* AppDelegate.swift in Sources */,
+				318008B1244A223700C50131 /* SecondViewController.swift in Sources */,
 				3180089C244A21FB00C50131 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
